@@ -1,0 +1,22 @@
+/*mixins sin parametros*/
+@mixin parrafos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+}
+
+/*mixins con parametros*/
+
+@mixin parrafosConParametros($size, $alineacion){
+    font-size: $size;
+    text-align: $alineacion;
+
+} 
+
+.parrafosConHambre {
+    @include parrafosConParametros(50px,right)
+}

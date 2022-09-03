@@ -1,0 +1,55 @@
+@import "variables";
+@import "bucless";
+@import "maps";
+@import "extend";
+@import "mixin";
+
+//HTML BACKGROUND
+
+html {
+    background-color: black;
+}
+// ENCABEZADO
+
+header {
+    background-color:darkred;
+    display: flex;
+    align-items:flex-end;
+    justify-content:space-evenly;
+    font-size: 30px;
+    text-transform: bold;
+
+    h1 {
+        color:darkgoldenrod;
+
+    }
+
+// BARRA DE NAVEGACIÓN
+    nav {
+        background-color: goldenrod;
+        border-radius: 50%;
+
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: $tan-fuente - 1.5rem;
+
+                &::hover {
+                    background-color: crimson;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color:crimson;
+}

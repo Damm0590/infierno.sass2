@@ -1,0 +1,87 @@
+h2 {
+  font-size: 4rem; }
+
+h3 {
+  font-size: 6rem; }
+
+h4 {
+  font-size: 8rem; }
+
+h5 {
+  font-size: 10rem; }
+
+h6 {
+  font-size: 12rem; }
+
+.yellow {
+  color: yellow; }
+
+.gold {
+  color: gold; }
+
+.crimson {
+  color: crimson; }
+
+.facebook {
+  color: blue; }
+
+.instagram {
+  color: red; }
+
+.twitter {
+  color: cian; }
+
+.pepelepu {
+  background-color: red;
+  font-size: 30px; }
+
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 35px; }
+
+/*mixins sin parametros*/
+.parrafosConEstilo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+  text-align: center; }
+
+/*mixins con parametros*/
+.parrafosConHambre {
+  font-size: 50px;
+  text-align: right; }
+
+html {
+  background-color: black; }
+
+header {
+  background-color: darkred;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  font-size: 30px;
+  text-transform: bold; }
+  header h1 {
+    color: darkgoldenrod; }
+  header nav {
+    background-color: goldenrod;
+    border-radius: 50%; }
+    header nav li {
+      display: inline-block; }
+      header nav li a {
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.5rem; }
+        header nav li a::hover {
+          background-color: crimson;
+          cursor: pointer; }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: crimson; }
