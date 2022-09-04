@@ -1,10 +1,13 @@
-.primerEstilo {
+.h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-align: right;
+    text-align: center;
+    background-color: grey;
 }
 
-.segundoEstilo {
-    font-size: 35px;
-    @extend .primerEstilo;
+.h3 {
+    font-size: 70px;
+    @extend .h2;
+    background-color: black;
+    color: gold;
 }

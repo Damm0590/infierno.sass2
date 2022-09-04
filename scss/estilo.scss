@@ -7,12 +7,12 @@
 //HTML BACKGROUND
 
 html {
-    background-color: black;
+    background-color: darkred;
 }
 // ENCABEZADO
 
 header {
-    background-color:darkred;
+    background-color:black;
     display: flex;
     align-items:flex-end;
     justify-content:space-evenly;
@@ -26,8 +26,7 @@ header {
 
 // BARRA DE NAVEGACIÓN
     nav {
-        background-color: goldenrod;
-        border-radius: 50%;
+        color:black;
 
         li {
             display: inline-block;
@@ -47,9 +46,40 @@ header {
     }
 }
 
+//MAIN
 main {
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
     color:crimson;
+    background-image: url(/img/background.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+//h2 al h6
+
+.pepelepu {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    @include parrafos;
+}
+
+h5 {
+    text-align: center;
+    @include parrafos;
+}
+
+h6 {
+    text-align: center;
+    @include parrafos;
 }

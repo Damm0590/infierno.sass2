@@ -32,33 +32,37 @@ h6 {
   color: cian; }
 
 .pepelepu {
-  background-color: red;
+  background-color: grey;
   font-size: 30px; }
 
-.primerEstilo, .segundoEstilo {
+.h2, .h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  text-align: right; }
+  text-align: center;
+  background-color: grey; }
 
-.segundoEstilo {
-  font-size: 35px; }
+.h3 {
+  font-size: 70px;
+  background-color: black;
+  color: gold; }
 
 /*mixins sin parametros*/
 .parrafosConEstilo {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 2rem;
-  text-align: center; }
+  font-size: 10rem;
+  text-align: center;
+  background-color: black; }
 
 /*mixins con parametros*/
 .parrafosConHambre {
   font-size: 50px;
-  text-align: right; }
+  text-align: center; }
 
 html {
-  background-color: black; }
+  background-color: darkred; }
 
 header {
-  background-color: darkred;
+  background-color: black;
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
@@ -67,8 +71,7 @@ header {
   header h1 {
     color: darkgoldenrod; }
   header nav {
-    background-color: goldenrod;
-    border-radius: 50%; }
+    color: black; }
     header nav li {
       display: inline-block; }
       header nav li a {
@@ -81,7 +84,38 @@ header {
           cursor: pointer; }
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: crimson; }
+  color: crimson;
+  background-image: url(/img/background.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat; }
+
+.pepelepu {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+h3 {
+  text-align: center; }
+
+h4 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 10rem;
+  text-align: center;
+  background-color: black; }
+
+h5 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 10rem;
+  text-align: center;
+  background-color: black; }
+
+h6 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 10rem;
+  text-align: center;
+  background-color: black; }

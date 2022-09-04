@@ -8,7 +8,7 @@ $mapRedes:(facebook:blue,instagram:red,twitter:cian);
 
 //map - get
 
-$estilo: (color:red, tamFuente: 30px, ali: center);
+$estilo: (color:grey, tamFuente: 30px, aling: center);
 
 .pepelepu {
     background-color: map-get($estilo, color);
