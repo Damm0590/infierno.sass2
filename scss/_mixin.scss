@@ -14,7 +14,7 @@
 
 @mixin parrafosConParametros($size, $alineacion){
     font-size: 50px;
-    text-align: center;
+    text-align: $alineacion;
 
 } 
 
